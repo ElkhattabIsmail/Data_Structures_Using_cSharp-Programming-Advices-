@@ -25,11 +25,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        List<Book> bookInventory = new List<Book>();
-
-        bookInventory.Add(new Book { Title = "T1", Author = "Au1", PublicationYear = 2001 });
-        bookInventory.Add(new Book { Title = "T2", Author = "Au2", PublicationYear = 2002 });
-        bookInventory.Add(new Book { Title = "T3", Author = "Au3", PublicationYear = 2003 });
+        List<Book> bookInventory = new List<Book>
+        {
+            new Book { Title = "T1", Author = "Au1", PublicationYear = 2001 },
+            new Book { Title = "T2", Author = "Au2", PublicationYear = 2002 },
+            new Book { Title = "T3", Author = "Au3", PublicationYear = 2003 }
+        };
 
         int choice;
 
