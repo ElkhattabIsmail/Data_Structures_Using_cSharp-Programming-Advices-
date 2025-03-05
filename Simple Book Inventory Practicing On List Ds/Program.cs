@@ -12,7 +12,7 @@ class Book
 
     public override string ToString()
     {
-        return $"{Title} by {Author}, Published in {PublicationYear}";
+        return $"{Title} by {Author} Published in {PublicationYear}";
     }
 }
 struct stBookInfo
@@ -26,6 +26,11 @@ class Program
     static void Main(string[] args)
     {
         List<Book> bookInventory = new List<Book>();
+
+        bookInventory.Add(new Book { Title = "T1", Author = "Au1", PublicationYear = 2001 });
+        bookInventory.Add(new Book { Title = "T2", Author = "Au2", PublicationYear = 2002 });
+        bookInventory.Add(new Book { Title = "T3", Author = "Au3", PublicationYear = 2003 });
+
         int choice;
 
         do
@@ -36,8 +41,9 @@ class Program
             Console.WriteLine("3. Display all books");
             Console.WriteLine("4. Search for a book by title");
             Console.WriteLine("5. Add a Group Of Books");
-            Console.WriteLine("5. Add a Book Before/After an Order book");
-            Console.WriteLine("7. Exit");
+            Console.WriteLine("6. Add a Book Before/After in Order book");
+            Console.WriteLine("7. Display all books in Order");
+            Console.WriteLine("8. Exit");
             Console.Write("Enter your choice: ");
             choice = int.Parse(Console.ReadLine());
 
@@ -62,6 +68,9 @@ class Program
                     AddBoxByOrderName(bookInventory);
                     break;
                 case 7:
+                    DisplayAllbooksINOrder(bookInventory);
+                    break;
+                case 8:
                     Console.WriteLine("Exiting the system...");
                     break;
                 default:
@@ -70,6 +79,32 @@ class Program
             }
         } while (choice != 7);
     }
+
+    static void DisplayAllbooksINOrder(List<Book> bookInventory)
+    {
+        int PubYear;
+        short choice;
+        Console.Write("Enter The Publication Year As a Criteria :");
+        PubYear = int.Parse(Console.ReadLine());
+
+        Console.WriteLine($"Enter 1 For Displaying All Books Created After {PubYear}:");
+        Console.WriteLine($"Enter 2 For Displaying All Books Created Before {PubYear}:");
+        choice = short.Parse(Console.ReadLine());
+        switch (choice)
+        {
+            case 1:
+                Console.WriteLine(string.Join(", ", bookInventory.FindAll(book => book.PublicationYear > PubYear)));
+                break;
+            case 2:
+                Console.WriteLine(string.Join(", ", bookInventory.FindAll(book => book.PublicationYear < PubYear)));
+                break;
+            default:
+                Console.WriteLine("Invalid choice.");
+                break;
+        }
+    }
+
+
     static void AddBoxByOrderName(List<Book> bookInventory)
     {
         // Check if the inventory is empty
@@ -83,11 +118,13 @@ class Program
         Console.Write("Enter the title of the book: ");
         string title = Console.ReadLine();
 
-        // Find the book in the inventory
-        Book bookToFind = bookInventory.Find(book => book.Title == title);
+        // use Exist(condition);
 
-        if (bookToFind != null)
+        if (bookInventory.Exists(book => book.Title == title))
         {
+            // Find the book in the inventory
+            Book bookToFind = bookInventory.Find(book => book.Title == title);
+
             // Read new book details
             stBookInfo newBookInfo = ReadBookInfo();
             Book bookToAdd = new Book
@@ -112,10 +149,8 @@ class Program
                 bookInventory.Insert(index, bookToAdd);
             }
             else // Insert after
-            {
                 bookInventory.Insert(index + 1, bookToAdd);
-            }
-
+            
             Console.WriteLine("Book added successfully.");
         }
         else
@@ -170,6 +205,7 @@ class Program
         string title = Console.ReadLine();
 
         Book bookToRemove = bookInventory.Find(book => book.Title == title);
+
         if (bookToRemove != null)
         {
             bookInventory.Remove(bookToRemove);
@@ -198,7 +234,8 @@ class Program
         string title = Console.ReadLine();
 
         Book bookToFind = bookInventory.Find(book => book.Title == title);
-        if (bookToFind != null)
+        // Use Built-in function Contains(item) instead of checking if null or not (jsut 4 practice)
+        if (bookInventory.Contains(bookToFind))
         {
             Console.WriteLine(bookToFind.ToString());
         }
