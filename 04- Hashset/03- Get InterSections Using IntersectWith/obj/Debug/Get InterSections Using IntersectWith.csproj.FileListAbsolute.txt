@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\03-Union Operation with HashSetT in C#\Get InterSections Using IntersectWith\bin\Debug\Get InterSections Using IntersectWith.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\03-Union Operation with HashSetT in C#\Get InterSections Using IntersectWith\bin\Debug\Get InterSections Using IntersectWith.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\03-Union Operation with HashSetT in C#\Get InterSections Using IntersectWith\bin\Debug\Get InterSections Using IntersectWith.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\03-Union Operation with HashSetT in C#\Get InterSections Using IntersectWith\obj\Debug\Get InterSections Using IntersectWith.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\03-Union Operation with HashSetT in C#\Get InterSections Using IntersectWith\obj\Debug\Get InterSections Using IntersectWith.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\03-Union Operation with HashSetT in C#\Get InterSections Using IntersectWith\obj\Debug\Get InterSections Using IntersectWith.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\03-Union Operation with HashSetT in C#\Get InterSections Using IntersectWith\obj\Debug\Get InterSections Using IntersectWith.pdb

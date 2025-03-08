@@ -1,0 +1,9 @@
+Definition: HashSet<T> is a collection class in the System.Collections.Generic namespace designed to store unique elements.
+
+Uniqueness: The primary feature of HashSet<T> is that it automatically ensures all elements are unique.
+
+No Indexing: Unlike lists, HashSet<T> does not maintain the order of its elements and does not support indexing.
+Generic: HashSet<T> is a generic collection, meaning it can store any type of object.
+
+-> Linq Works with the Generic Collections.
+
