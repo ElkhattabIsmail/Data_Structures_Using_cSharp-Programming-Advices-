@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\21 Tree Data Structure\02 General Tree\04 Find Operation On Tree\GTFindOperation\GTOperations\bin\Debug\GTOperations.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\21 Tree Data Structure\02 General Tree\04 Find Operation On Tree\GTFindOperation\GTOperations\bin\Debug\GTOperations.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\21 Tree Data Structure\02 General Tree\04 Find Operation On Tree\GTFindOperation\GTOperations\bin\Debug\GTOperations.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\21 Tree Data Structure\02 General Tree\04 Find Operation On Tree\GTFindOperation\GTOperations\obj\Debug\GTFindOperation.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\21 Tree Data Structure\02 General Tree\04 Find Operation On Tree\GTFindOperation\GTOperations\obj\Debug\GTFindOperation.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\21 Tree Data Structure\02 General Tree\04 Find Operation On Tree\GTFindOperation\GTOperations\obj\Debug\GTOperations.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\21 Tree Data Structure\02 General Tree\04 Find Operation On Tree\GTFindOperation\GTOperations\obj\Debug\GTOperations.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\24- Tree Data Structure\01- General Tree\GTFindOperation\GTOperations\bin\Debug\GTOperations.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\24- Tree Data Structure\01- General Tree\GTFindOperation\GTOperations\bin\Debug\GTOperations.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\24- Tree Data Structure\01- General Tree\GTFindOperation\GTOperations\bin\Debug\GTOperations.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\24- Tree Data Structure\01- General Tree\GTFindOperation\GTOperations\obj\Debug\GTFindOperation.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\24- Tree Data Structure\01- General Tree\GTFindOperation\GTOperations\obj\Debug\GTFindOperation.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\24- Tree Data Structure\01- General Tree\GTFindOperation\GTOperations\obj\Debug\GTOperations.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\24- Tree Data Structure\01- General Tree\GTFindOperation\GTOperations\obj\Debug\GTOperations.pdb

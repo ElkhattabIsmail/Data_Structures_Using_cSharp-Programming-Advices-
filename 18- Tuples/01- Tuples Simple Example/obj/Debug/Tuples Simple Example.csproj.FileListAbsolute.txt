@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\22- Tuples\Tuples Simple Example\bin\Debug\Tuples Simple Example.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\22- Tuples\Tuples Simple Example\bin\Debug\Tuples Simple Example.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\22- Tuples\Tuples Simple Example\bin\Debug\Tuples Simple Example.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\22- Tuples\Tuples Simple Example\obj\Debug\Tuples Simple Example.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\22- Tuples\Tuples Simple Example\obj\Debug\Tuples Simple Example.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\22- Tuples\Tuples Simple Example\obj\Debug\Tuples Simple Example.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\22- Tuples\Tuples Simple Example\obj\Debug\Tuples Simple Example.pdb

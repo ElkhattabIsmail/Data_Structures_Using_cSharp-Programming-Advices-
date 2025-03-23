@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\21 Tree Data Structure\02 General Tree\04 Operations On Tree\GTOperations\GTOperations\bin\Debug\GTOperations.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\21 Tree Data Structure\02 General Tree\04 Operations On Tree\GTOperations\GTOperations\bin\Debug\GTOperations.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\21 Tree Data Structure\02 General Tree\04 Operations On Tree\GTOperations\GTOperations\bin\Debug\GTOperations.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\21 Tree Data Structure\02 General Tree\04 Operations On Tree\GTOperations\GTOperations\obj\Debug\GTOperations.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\21 Tree Data Structure\02 General Tree\04 Operations On Tree\GTOperations\GTOperations\obj\Debug\GTOperations.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\21 Tree Data Structure\02 General Tree\04 Operations On Tree\GTOperations\GTOperations\obj\Debug\GTOperations.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\21 Tree Data Structure\02 General Tree\04 Operations On Tree\GTOperations\GTOperations\obj\Debug\GTOperations.pdb

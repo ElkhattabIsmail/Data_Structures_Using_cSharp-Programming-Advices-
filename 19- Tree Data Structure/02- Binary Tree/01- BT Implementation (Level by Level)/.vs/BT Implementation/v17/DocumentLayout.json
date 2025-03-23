@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\Downloads\\Data_Structures_Using_cSharp-Programming-Advices-\\19- Tree Data Structure\\02- Binary Tree\\01- BT Implementation (Level by Level)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9454FF89-2DF8-436B-B7C5-19F58A486271}|BT Implementation\\BT Implementation.csproj|c:\\users\\ultrapc\\downloads\\data_structures_using_csharp-programming-advices-\\19- tree data structure\\02- binary tree\\01- bt implementation (level by level)\\bt implementation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9454FF89-2DF8-436B-B7C5-19F58A486271}|BT Implementation\\BT Implementation.csproj|solutionrelative:bt implementation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\Downloads\\Data_Structures_Using_cSharp-Programming-Advices-\\19- Tree Data Structure\\02- Binary Tree\\01- BT Implementation (Level by Level)\\BT Implementation\\Program.cs",
+              "RelativeDocumentMoniker": "BT Implementation\\Program.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\Downloads\\Data_Structures_Using_cSharp-Programming-Advices-\\19- Tree Data Structure\\02- Binary Tree\\01- BT Implementation (Level by Level)\\BT Implementation\\Program.cs",
+              "RelativeToolTip": "BT Implementation\\Program.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAF4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T17:09:28.649Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
