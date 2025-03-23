@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\Downloads\\Data_Structures_Using_cSharp-Programming-Advices-\\16- Bit_Array\\01- BitArrayFullExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5CE983DA-D204-4597-A72D-B709731E42DE}|BitArrayFullExample\\BitArrayFullExample.csproj|c:\\users\\ultrapc\\downloads\\data_structures_using_csharp-programming-advices-\\16- bit_array\\01- bitarrayfullexample\\bitarrayfullexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CE983DA-D204-4597-A72D-B709731E42DE}|BitArrayFullExample\\BitArrayFullExample.csproj|solutionrelative:bitarrayfullexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\Downloads\\Data_Structures_Using_cSharp-Programming-Advices-\\16- Bit_Array\\01- BitArrayFullExample\\BitArrayFullExample\\Program.cs",
+              "RelativeDocumentMoniker": "BitArrayFullExample\\Program.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\Downloads\\Data_Structures_Using_cSharp-Programming-Advices-\\16- Bit_Array\\01- BitArrayFullExample\\BitArrayFullExample\\Program.cs",
+              "RelativeToolTip": "BitArrayFullExample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T09:20:52.355Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

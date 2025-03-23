@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\19- Arrays in C#\Array With Linq\bin\Debug\Array With Linq.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\19- Arrays in C#\Array With Linq\bin\Debug\Array With Linq.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\19- Arrays in C#\Array With Linq\bin\Debug\Array With Linq.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\19- Arrays in C#\Array With Linq\obj\Debug\Array With Linq.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\19- Arrays in C#\Array With Linq\obj\Debug\Array With Linq.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\19- Arrays in C#\Array With Linq\obj\Debug\Array With Linq.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\19- Arrays in C#\Array With Linq\obj\Debug\Array With Linq.pdb

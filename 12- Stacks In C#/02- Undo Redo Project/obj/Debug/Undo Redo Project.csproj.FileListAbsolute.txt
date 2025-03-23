@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\16- Stacks In C#\Undo Redo Project\bin\Debug\Undo Redo Project.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\16- Stacks In C#\Undo Redo Project\bin\Debug\Undo Redo Project.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\16- Stacks In C#\Undo Redo Project\bin\Debug\Undo Redo Project.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\16- Stacks In C#\Undo Redo Project\obj\Debug\Undo Redo Project.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\16- Stacks In C#\Undo Redo Project\obj\Debug\Undo Redo Project.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\16- Stacks In C#\Undo Redo Project\obj\Debug\Undo Redo Project.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\16- Stacks In C#\Undo Redo Project\obj\Debug\Undo Redo Project.pdb
