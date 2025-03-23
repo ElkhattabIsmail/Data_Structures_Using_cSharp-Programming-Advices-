@@ -1,0 +1,14 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\11- SortedSet\SortedSet All Examples\bin\Debug\SortedSet All Examples.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\11- SortedSet\SortedSet All Examples\bin\Debug\SortedSet All Examples.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\11- SortedSet\SortedSet All Examples\bin\Debug\SortedSet All Examples.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\11- SortedSet\SortedSet All Examples\obj\Debug\SortedSet All Examples.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\11- SortedSet\SortedSet All Examples\obj\Debug\SortedSet All Examples.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\11- SortedSet\SortedSet All Examples\obj\Debug\SortedSet All Examples.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\11- SortedSet\SortedSet All Examples\obj\Debug\SortedSet All Examples.pdb
+C:\Users\ULTRAPC\Downloads\Data_Structures_Using_cSharp-Programming-Advices-\08- SortedSet\SortedSet All Examples\bin\Debug\SortedSet All Examples.exe.config
+C:\Users\ULTRAPC\Downloads\Data_Structures_Using_cSharp-Programming-Advices-\08- SortedSet\SortedSet All Examples\bin\Debug\SortedSet All Examples.exe
+C:\Users\ULTRAPC\Downloads\Data_Structures_Using_cSharp-Programming-Advices-\08- SortedSet\SortedSet All Examples\bin\Debug\SortedSet All Examples.pdb
+C:\Users\ULTRAPC\Downloads\Data_Structures_Using_cSharp-Programming-Advices-\08- SortedSet\SortedSet All Examples\obj\Debug\SortedSet All Examples.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\Downloads\Data_Structures_Using_cSharp-Programming-Advices-\08- SortedSet\SortedSet All Examples\obj\Debug\SortedSet All Examples.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\Downloads\Data_Structures_Using_cSharp-Programming-Advices-\08- SortedSet\SortedSet All Examples\obj\Debug\SortedSet All Examples.exe
+C:\Users\ULTRAPC\Downloads\Data_Structures_Using_cSharp-Programming-Advices-\08- SortedSet\SortedSet All Examples\obj\Debug\SortedSet All Examples.pdb

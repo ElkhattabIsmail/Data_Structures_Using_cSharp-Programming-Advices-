@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\03 Filtering ArrayList With Linq\FilteringExampleWtihLinq\FilteringExampleWtihLinq\bin\Debug\FilteringExampleWtihLinq.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\03 Filtering ArrayList With Linq\FilteringExampleWtihLinq\FilteringExampleWtihLinq\bin\Debug\FilteringExampleWtihLinq.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\03 Filtering ArrayList With Linq\FilteringExampleWtihLinq\FilteringExampleWtihLinq\bin\Debug\FilteringExampleWtihLinq.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\03 Filtering ArrayList With Linq\FilteringExampleWtihLinq\FilteringExampleWtihLinq\obj\Debug\FilteringExampleWtihLinq.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\03 Filtering ArrayList With Linq\FilteringExampleWtihLinq\FilteringExampleWtihLinq\obj\Debug\FilteringExampleWtihLinq.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\03 Filtering ArrayList With Linq\FilteringExampleWtihLinq\FilteringExampleWtihLinq\obj\Debug\FilteringExampleWtihLinq.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\03 Filtering ArrayList With Linq\FilteringExampleWtihLinq\FilteringExampleWtihLinq\obj\Debug\FilteringExampleWtihLinq.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\14- Array List\FilteringExampleWtihLinq\FilteringExampleWtihLinq\bin\Debug\FilteringExampleWtihLinq.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\14- Array List\FilteringExampleWtihLinq\FilteringExampleWtihLinq\bin\Debug\FilteringExampleWtihLinq.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\14- Array List\FilteringExampleWtihLinq\FilteringExampleWtihLinq\bin\Debug\FilteringExampleWtihLinq.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\14- Array List\FilteringExampleWtihLinq\FilteringExampleWtihLinq\obj\Debug\FilteringExampleWtihLinq.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\14- Array List\FilteringExampleWtihLinq\FilteringExampleWtihLinq\obj\Debug\FilteringExampleWtihLinq.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\14- Array List\FilteringExampleWtihLinq\FilteringExampleWtihLinq\obj\Debug\FilteringExampleWtihLinq.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\14- Array List\FilteringExampleWtihLinq\FilteringExampleWtihLinq\obj\Debug\FilteringExampleWtihLinq.pdb

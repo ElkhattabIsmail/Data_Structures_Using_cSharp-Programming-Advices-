@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\14- Array List\Aggregate Functions in ArrayList with Linq\bin\Debug\Aggregate Functions in ArrayList with Linq.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\14- Array List\Aggregate Functions in ArrayList with Linq\bin\Debug\Aggregate Functions in ArrayList with Linq.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\14- Array List\Aggregate Functions in ArrayList with Linq\bin\Debug\Aggregate Functions in ArrayList with Linq.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\14- Array List\Aggregate Functions in ArrayList with Linq\obj\Debug\Aggregate Functions in ArrayList with Linq.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\14- Array List\Aggregate Functions in ArrayList with Linq\obj\Debug\Aggregate Functions in ArrayList with Linq.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\14- Array List\Aggregate Functions in ArrayList with Linq\obj\Debug\Aggregate Functions in ArrayList with Linq.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\14- Array List\Aggregate Functions in ArrayList with Linq\obj\Debug\Aggregate Functions in ArrayList with Linq.pdb
