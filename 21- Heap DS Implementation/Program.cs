@@ -87,20 +87,20 @@ public class MinHeap
     public int ExtractMin()
     {
         // Check if the heap is empty
-        if (heap.Count == 0)
+        if (_Heap.Count == 0)
         {
             // If the heap is empty, throw an exception as there is no element to extract
             throw new InvalidOperationException("Heap is empty.");
         }
 
         // Step 1: Store the minimum value (root element) to return later
-        int minValue = heap[0];
+        int minValue = _Heap[0];
 
         // Step 2: Move the last element in the heap to the root position
-        heap[0] = heap[heap.Count - 1];
+        _Heap[0] = _Heap[_Heap.Count - 1];
 
         // Step 3: Remove the last element from the heap, as it has been moved to the root
-        heap.RemoveAt(heap.Count - 1);
+        _Heap.RemoveAt(_Heap.Count - 1);
 
         // Step 4: Restore the heap property by calling HeapifyDown on the root
         HeapifyDown();
@@ -111,7 +111,7 @@ public class MinHeap
 
     // This helper method restores the heap property by moving an element down the heap
     // if it is larger than its children, ensuring the Min-Heap structure is maintained.
-    private void HeapifyDown(int index = 0)
+    private void HeapifyDown(int index = 0) // "from Up Go Down"
     {
 
         //Starts at the root and compares it to its children.
@@ -120,34 +120,48 @@ public class MinHeap
 
 
         // Continue until the element is in the correct position or has no children to compare
-        while (index < heap.Count)
+        while (index < _Heap.Count)
         {
             // Calculate the indices of the left and right children of the current node
             int leftChildIndex = 2 * index + 1;
-            int rightChildIndex = 2 * index + 2;
+            int rightChildIndex = 2 * index + 2;  // leftChildIndex + 1 
 
             // Start by assuming the current node is the smallest
             int smallestIndex = index;
 
             // Check if the left child exists and is smaller than the current smallest element
-            if (leftChildIndex < heap.Count && heap[leftChildIndex] < heap[smallestIndex])
+            if (leftChildIndex < _Heap.Count && _Heap[leftChildIndex] < _Heap[smallestIndex])
                 smallestIndex = leftChildIndex;
 
             // Check if the right child exists and is smaller than the current smallest element
-            if (rightChildIndex < heap.Count && heap[rightChildIndex] < heap[smallestIndex])
+            if (rightChildIndex < _Heap.Count && _Heap[rightChildIndex] < _Heap[smallestIndex])
                 smallestIndex = rightChildIndex;
 
             // If the current node is already the smallest, stop the process
             if (smallestIndex == index) break;
 
-            // Swap the current element with the smaller child to restore the Min-Heap property
-            (heap[index], heap[smallestIndex]) = (heap[smallestIndex], heap[index]);
+            (_Heap[index], _Heap[smallestIndex]) = (_Heap[smallestIndex], _Heap[index]);
 
             // Update the index to continue checking down the tree
             index = smallestIndex;
         }
+
+    }
+    public void Remove(int value)
+    {
+        if (_Heap.Count == 0)
+            throw new InvalidOperationException("Heap is empty.");
+
+        int ItemIndex = _Heap.IndexOf(value);
+        _Heap[ItemIndex] = _Heap[_Heap.Count - 1];
+        _Heap.RemoveAt(_Heap.Count - 1);
+
+        if (_Heap.Count > 3)
+            HeapifyDown(ItemIndex);
+
     }
 }
+
 
 public class Program
 {
@@ -163,6 +177,11 @@ public class Program
         minHeap.Insert(8);
 
         // Display the heap after insertion
+        minHeap.DisplayHeap();
+
+        minHeap.Remove(4);
+
+        Console.WriteLine($"Heap Elements After Deleting Number 4 from It : \n");
         minHeap.DisplayHeap();
 
         Console.WriteLine($"The Minimun Value In The Heap => {minHeap.Peek()}\n");
