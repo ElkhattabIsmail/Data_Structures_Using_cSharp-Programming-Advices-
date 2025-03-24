@@ -46,7 +46,7 @@ public class MinHeap
             // or "TUPLE SWAP",
             // where the values on the left side are swapped with the values on the right side in a single, concise statement.
             //swaps with the parent
-             (heap[index], heap[parentIndex]) = (heap[parentIndex], heap[index]);
+            (heap[index], heap[parentIndex]) = (heap[parentIndex], heap[index]);
 
             // is equivalent to the following code:
             /* 
@@ -59,6 +59,7 @@ public class MinHeap
             // Update the index to the parent's index to continue checking up the tree
             index = parentIndex;
         }
+
     }
 
     // Display the elements in the heap
@@ -70,6 +71,16 @@ public class MinHeap
             Console.Write(value + " ");
         }
         Console.WriteLine();
+    }
+    // Peek the minimum element without removing it
+    public int Peek()
+    {
+        if (heap.Count == 0)
+        {
+            throw new InvalidOperationException("Heap is empty.");
+        }
+
+        return heap[0]; // The smallest element is at the root
     }
 }
 
@@ -88,6 +99,9 @@ public class Program
 
         // Display the heap after insertion
         minHeap.DisplayHeap();
+
+        Console.WriteLine($"The Minimun Value In The Heap => {minHeap.Peek()}\n");
+
 
         Console.ReadKey();
 
