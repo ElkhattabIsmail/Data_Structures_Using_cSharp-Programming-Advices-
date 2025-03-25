@@ -147,18 +147,39 @@ public class MinHeap
         }
 
     }
-    public void Remove(int value)
+    public bool Remove(int value)
     {
         if (_Heap.Count == 0)
-            throw new InvalidOperationException("Heap is empty.");
+            return false;
 
         int ItemIndex = _Heap.IndexOf(value);
         _Heap[ItemIndex] = _Heap[_Heap.Count - 1];
         _Heap.RemoveAt(_Heap.Count - 1);
 
-        if (_Heap.Count > 3)
+        if (_Heap.Count <= 3)
+            return true;
+        else
+        {
             HeapifyDown(ItemIndex);
+            return true;
+        }
 
+    }
+    public bool RemoveAt(int Index)
+    {
+        if (_Heap.Count == 0)
+            return false;
+
+        _Heap[Index] = _Heap[_Heap.Count - 1];
+        _Heap.RemoveAt(_Heap.Count - 1);
+
+        if (_Heap.Count <= 3)
+            return true;
+        else
+        {
+            HeapifyDown(Index);
+            return true;
+        }
     }
 }
 
@@ -175,17 +196,32 @@ public class Program
         minHeap.Insert(15);
         minHeap.Insert(2);
         minHeap.Insert(8);
+        minHeap.Insert(20);
+        minHeap.Insert(1);
+        minHeap.Insert(7);
+        minHeap.Insert(16);
+
+
 
         // Display the heap after insertion
         minHeap.DisplayHeap();
 
-        minHeap.Remove(4);
+        if (minHeap.Remove(4))
+        {
+            Console.WriteLine($"\nHeap Elements After Deleting Number 4 from It :");
+            minHeap.DisplayHeap();
+        }
 
-        Console.WriteLine($"Heap Elements After Deleting Number 4 from It : \n");
+        if (minHeap.RemoveAt(1))
+        {
+            Console.WriteLine($"\nHeap Elements After Deleting item at Index 1 : ");
+            minHeap.DisplayHeap();
+        }
         minHeap.DisplayHeap();
 
-        Console.WriteLine($"The Minimun Value In The Heap => {minHeap.Peek()}\n");
+        Console.WriteLine("\nPeek Minimum Element: Minimum Element is: " + minHeap.Peek());
 
+        // Display the heap after insertion, note that the minimum value is not deleted.
         minHeap.DisplayHeap();
 
         // Extract elements based on priority
@@ -197,6 +233,5 @@ public class Program
         minHeap.DisplayHeap();
 
         Console.ReadKey();
-
     }
 }
