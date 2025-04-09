@@ -1,0 +1,9 @@
+C:\Users\ULTRAPC\Downloads\Data_Structures_Using_cSharp-Programming-Advices-\22- Priority Queue\02- Generic Priority Queue\obj\Debug\Generic Priority Queue.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\Downloads\Data_Structures_Using_cSharp-Programming-Advices-\22- Priority Queue\02- Generic Priority Queue\obj\Debug\Generic Priority Queue.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\02- Generic Priority Queue\bin\Debug\Generic Priority Queue.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\02- Generic Priority Queue\bin\Debug\Generic Priority Queue.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\02- Generic Priority Queue\bin\Debug\Generic Priority Queue.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\02- Generic Priority Queue\obj\Debug\Generic Priority Queue.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\02- Generic Priority Queue\obj\Debug\Generic Priority Queue.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\02- Generic Priority Queue\obj\Debug\Generic Priority Queue.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\02- Generic Priority Queue\obj\Debug\Generic Priority Queue.pdb
