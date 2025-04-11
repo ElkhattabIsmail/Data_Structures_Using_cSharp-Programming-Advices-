@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static ElevatorPriorityDemo.ElevatorRoom.GenPriorityQueue;
 
 namespace ElevatorPriorityDemo
 {
@@ -27,165 +28,11 @@ namespace ElevatorPriorityDemo
                 Priority = priority;
             }
         }
-        public class MinHeapPriorityQueue
+        public class GenPriorityQueue
         {
-            private List<FloorPriority> heap = new List<FloorPriority>();
-            public int Count { get { return heap.Count; } }
-
-            // Insert a new element with a priority
-            public void Insert(string name, int priority)
-            {
-                var node = new FloorPriority(name, priority);
-                heap.Add(node);
-                HeapifyUp(heap.Count - 1);
-            }
-
-            // Extract the element with the minimum priority
-            public FloorPriority ExtractMin()
-            {
-                if (heap.Count == 0)
-                {
-                    throw new InvalidOperationException("Priority Queue is empty.");
-                }
-
-                var minNode = heap[0];
-                heap[0] = heap[heap.Count - 1];
-                heap.RemoveAt(heap.Count - 1);
-                HeapifyDown();
-
-                return minNode;
-            }
-
-            // Peek at the element with the minimum priority without removing it
-            public FloorPriority Peek()
-            {
-                if (heap.Count == 0)
-                {
-                    throw new InvalidOperationException("Priority Queue is empty.");
-                }
-
-                return heap[0];
-            }
-
-            // Helper method to restore the heap property by bubbling up
-            private void HeapifyUp(int index)
-            {
-                while (index > 0)
-                {
-                    int parentIndex = (index - 1) / 2;
-
-                    if (heap[index].Priority >= heap[parentIndex].Priority) break;
-
-                    (heap[index], heap[parentIndex]) = (heap[parentIndex], heap[index]);
-                    index = parentIndex;
-                }
-            }
-
-            // Helper method to restore the heap property by bubbling down
-            private void HeapifyDown(int index = 0)
-            {
-                while (index < heap.Count)
-                {
-                    int leftChildIndex = 2 * index + 1;
-                    int rightChildIndex = 2 * index + 2;
-                    int smallestIndex = index;
-
-                    if (leftChildIndex < heap.Count && heap[leftChildIndex].Priority < heap[smallestIndex].Priority)
-                        smallestIndex = leftChildIndex;
-
-                    if (rightChildIndex < heap.Count && heap[rightChildIndex].Priority < heap[smallestIndex].Priority)
-                        smallestIndex = rightChildIndex;
-
-                    if (smallestIndex == index) break;
-
-                    (heap[index], heap[smallestIndex]) = (heap[smallestIndex], heap[index]);
-                    index = smallestIndex;
-                }
-            }
-
-        }
-        public class MaxHeapPriorityQueue
-        {
-            private List<FloorPriority> heap = new List<FloorPriority>();
-            public int Count { get { return heap.Count; } }
-            // Insert a new element with a priority
-            public void Insert(string name, int priority)
-            {
-                var node = new FloorPriority(name, priority);
-                heap.Add(node);
-                HeapifyUp(heap.Count - 1);
-            }
-
-            // Extract the element with the minimum priority
-            public FloorPriority ExtractMax()
-            {
-                if (heap.Count == 0)
-                {
-                    throw new InvalidOperationException("Priority Queue is empty.");
-                }
-
-                var Max = heap[0];
-                heap[0] = heap[heap.Count - 1];
-                heap.RemoveAt(heap.Count - 1);
-                HeapifyDown();
-
-                return Max;
-            }
-
-            // Peek at the element with the minimum priority without removing it
-            public FloorPriority Peek()
-            {
-                if (heap.Count == 0)
-                {
-                    throw new InvalidOperationException("Priority Queue is empty.");
-                }
-
-                return heap[0];
-            }
-
-            // Helper method to restore the heap property by bubbling up
-           
-            private void HeapifyUp(int index)
-            {
-                while (index > 0)
-                {
-                    int parentIndex = (index - 1) / 2;
-
-                    if (heap[index].Priority <= heap[parentIndex].Priority) break;
-
-                    (heap[index], heap[parentIndex]) = (heap[parentIndex], heap[index]);
-                    index = parentIndex;
-                }
-            }
-
-            // Helper method to restore the heap property by bubbling down
-            private void HeapifyDown(int index = 0)
-            {
-                while (index < heap.Count)
-                {
-                    int leftChildIndex = 2 * index + 1;
-                    int rightChildIndex = 2 * index + 2;
-                    int smallestIndex = index;
-
-                    if (leftChildIndex < heap.Count && heap[leftChildIndex].Priority > heap[smallestIndex].Priority)
-                        smallestIndex = leftChildIndex;
-
-                    if (rightChildIndex < heap.Count && heap[rightChildIndex].Priority > heap[smallestIndex].Priority)
-                        smallestIndex = rightChildIndex;
-
-                    if (smallestIndex == index) break;
-
-                    (heap[index], heap[smallestIndex]) = (heap[smallestIndex], heap[index]);
-                    index = smallestIndex;
-                }
-            }
-
-        }
-        public class PriorityQueue
-        {
-            public enum _PriorityQueueMode { Min, Max }
-            private _PriorityQueueMode _mode = _PriorityQueueMode.Min;
-            public PriorityQueue(_PriorityQueueMode mode)
+            public enum PriorityQueueMode { Min, Max }
+            private PriorityQueueMode _mode = PriorityQueueMode.Min;
+            public GenPriorityQueue(PriorityQueueMode mode)
             {
                 _mode = mode;
             }
@@ -230,7 +77,7 @@ namespace ElevatorPriorityDemo
             // Helper method to restore the heap property by bubbling up
             private void HeapifyUp(int index)
             {
-                if (_mode == _PriorityQueueMode.Min)
+                if (_mode == PriorityQueueMode.Min)
                 {
                     while (index > 0)
                     {
@@ -267,7 +114,7 @@ namespace ElevatorPriorityDemo
                     int rightChildIndex = 2 * index + 2;
                     int smallestIndex = index;
 
-                    if (_mode == _PriorityQueueMode.Min)
+                    if (_mode == PriorityQueueMode.Min)
                     {
                         if (leftChildIndex < heap.Count && heap[leftChildIndex].Priority < heap[smallestIndex].Priority)
                             smallestIndex = leftChildIndex;
@@ -300,12 +147,14 @@ namespace ElevatorPriorityDemo
         enum ElevatorDirection { Up, Down }
         ElevatorDirection ElevatorMove = ElevatorDirection.Up;
 
-        MinHeapPriorityQueue minHeapPriorityQueue = new MinHeapPriorityQueue();
-        MaxHeapPriorityQueue maxHeapPriorityQueue = new MaxHeapPriorityQueue();
+        GenPriorityQueue minHeapPriorityQueue = new GenPriorityQueue(PriorityQueueMode.Min);
+        GenPriorityQueue maxHeapPriorityQueue = new GenPriorityQueue(PriorityQueueMode.Max);
         private int Count = 0;
         private List<CircularButton> BtnList = new List<CircularButton>();
+        public SoundPlayer ElevatorDing = new SoundPlayer(@"C:\Users\ULTRAPC\OneDrive\Bureau\elevator-dingwav-14913 (online-audio-converter.com).wav");
+        private SoundPlayer _elevatorMovingSound = new SoundPlayer(@"C:\Users\ULTRAPC\OneDrive\Bureau\elevator-33034 (online-audio-converter.com).wav");
 
-        
+
         private void ElevatorRoom_Load(object sender, EventArgs e)
         {
             B0.Enabled = false;
@@ -398,9 +247,7 @@ namespace ElevatorPriorityDemo
 
             rchTxt.Text = string.Empty;
         }
-        public SoundPlayer ElevatorDing = new SoundPlayer(@"C:\Users\ULTRAPC\OneDrive\Bureau\elevator-dingwav-14913 (online-audio-converter.com).wav");
-        private SoundPlayer _elevatorMovingSound = new SoundPlayer(@"C:\Users\ULTRAPC\OneDrive\Bureau\elevator-33034 (online-audio-converter.com).wav");
-
+  
         private async void FloorTimer_Tick(object sender, EventArgs e)
         {
             txtFloors.Text = Count.ToString();
@@ -412,7 +259,7 @@ namespace ElevatorPriorityDemo
                 {
                     if (minHeapPriorityQueue.Count != 0 && minHeapPriorityQueue.Peek().Priority == Count)
                     {
-                        lblNextFloor.Text = minHeapPriorityQueue.ExtractMin().Name;
+                        lblNextFloor.Text = minHeapPriorityQueue.Extract().Name;
 
                         _elevatorMovingSound.Stop();
 
@@ -437,7 +284,7 @@ namespace ElevatorPriorityDemo
                 {
                     if (maxHeapPriorityQueue.Count != 0 && maxHeapPriorityQueue.Peek().Priority == Count)
                     {
-                        lblNextFloor.Text = maxHeapPriorityQueue.ExtractMax().Name;
+                        lblNextFloor.Text = maxHeapPriorityQueue.Extract().Name;
 
                         _elevatorMovingSound.Stop();
 
@@ -451,8 +298,6 @@ namespace ElevatorPriorityDemo
                         cbtnDestReached2.BackColor = Color.Red;
 
                         _elevatorMovingSound.Play();
-
-
                     }
 
                     BtnDemand.Enabled = maxHeapPriorityQueue.Count == 0;

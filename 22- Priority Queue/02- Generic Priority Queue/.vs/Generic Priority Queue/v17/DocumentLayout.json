@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\02- Generic Priority Queue\\",
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\Downloads\\Data_Structures_Using_cSharp-Programming-Advices-\\22- Priority Queue\\02- Generic Priority Queue\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA3513D5-10EA-4E35-A9C2-C83495DF1764}|Generic Priority Queue.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\02- generic priority queue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA3513D5-10EA-4E35-A9C2-C83495DF1764}|Generic Priority Queue.csproj|c:\\users\\ultrapc\\downloads\\data_structures_using_csharp-programming-advices-\\22- priority queue\\02- generic priority queue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA3513D5-10EA-4E35-A9C2-C83495DF1764}|Generic Priority Queue.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\02- Generic Priority Queue\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\Downloads\\Data_Structures_Using_cSharp-Programming-Advices-\\22- Priority Queue\\02- Generic Priority Queue\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\02- Generic Priority Queue\\Program.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\Downloads\\Data_Structures_Using_cSharp-Programming-Advices-\\22- Priority Queue\\02- Generic Priority Queue\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAowCsAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwFIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T15:17:53.331Z",
               "EditorCaption": ""
